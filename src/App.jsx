@@ -27,7 +27,7 @@ const App = () => {
 
 
   return (
-    <div className='h-screen bg-black text-white '>
+    <div className='h-screen pb-15 bg-black text-white '>
       <form onSubmit={(e)=>{
         submitHandler(e)}} 
         className='flex justify-evenly p-15 gap-15 items-start overflow-x-hidden'
@@ -61,7 +61,7 @@ const App = () => {
         </div>
         <img className='h-60 w-fit mt-10' src="https://plus.unsplash.com/premium_photo-1683309567810-4d232ee83d2f?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
       </form>
-      <div className='mx-40 '>
+      <div className='px-40 bg-black h-auto pb-15'>
         <h1 className='py-5 text-3xl italic'>Recent Notes</h1>
         <div className='flex flex-wrap gap-4 h-full'>
             {task.map(function(elem,idx){
